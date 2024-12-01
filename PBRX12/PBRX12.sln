@@ -32,5 +32,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Backend\Backend.vcxitems*{6227ca63-d2c0-4bc2-a573-6c8b3748a5d7}*SharedItemsImports = 9
+		Backend\Backend.vcxitems*{fcdd8dfc-9f09-4441-a46e-3d53a6a3cca3}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
