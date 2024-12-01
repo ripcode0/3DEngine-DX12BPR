@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Backend", "Backend\Backend.vcxitems", "{6227CA63-D2C0-4BC2-A573-6C8B3748A5D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{5E98EA0E-5083-49A8-BB29-533EE811D8C4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Debug|x64.ActiveCfg = Debug|x64
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Debug|x64.Build.0 = Debug|x64
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Debug|x86.ActiveCfg = Debug|Win32
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Debug|x86.Build.0 = Debug|Win32
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Release|x64.ActiveCfg = Release|x64
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Release|x64.Build.0 = Release|x64
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Release|x86.ActiveCfg = Release|Win32
-		{5E98EA0E-5083-49A8-BB29-533EE811D8C4}.Release|x86.Build.0 = Release|Win32
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Debug|x64.ActiveCfg = Debug|x64
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Debug|x64.Build.0 = Debug|x64
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Debug|x86.Build.0 = Debug|Win32
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Release|x64.ActiveCfg = Release|x64
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Release|x64.Build.0 = Release|x64
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Release|x86.ActiveCfg = Release|Win32
+		{FCDD8DFC-9F09-4441-A46E-3D53A6A3CCA3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,7 +31,6 @@ Global
 		SolutionGuid = {27AC423C-F8D3-4304-826B-4AA351B30874}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Backend\Backend.vcxitems*{5e98ea0e-5083-49a8-bb29-533ee811d8c4}*SharedItemsImports = 4
 		Backend\Backend.vcxitems*{6227ca63-d2c0-4bc2-a573-6c8b3748a5d7}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
