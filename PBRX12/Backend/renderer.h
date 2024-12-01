@@ -4,6 +4,8 @@
 #pragma comment(lib, "d3dcompiler.lib")
 #include "d3dx12.h" 
 
+#include "FileIntoString.h"
+
 void PrintLabeledDebugString(const char* label, const char* toPrint)
 {
 	std::cout << label << toPrint << std::endl;
@@ -127,7 +129,7 @@ private:
 	{
 		Microsoft::WRL::ComPtr<ID3DBlob> vsBlob, errors;
 
-		std::string vertexShaderSource = ReadFileIntoString("../Shaders/VertexShader.hlsl");
+		std::string vertexShaderSource = ReadFileIntoString("VertexShader.hlsl");
 
 		HRESULT compilationResult =
 			D3DCompile(vertexShaderSource.c_str(), vertexShaderSource.length(),
@@ -148,7 +150,7 @@ private:
 	{
 		Microsoft::WRL::ComPtr<ID3DBlob> psBlob, errors;
 
-		std::string pixelShaderSource = ReadFileIntoString("../Shaders/PixelShader.hlsl");
+		std::string pixelShaderSource = ReadFileIntoString("PixelShader.hlsl");
 
 		HRESULT compilationResult =
 			D3DCompile(pixelShaderSource.c_str(), pixelShaderSource.length(),
