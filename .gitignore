@@ -293,7 +293,7 @@ output.binlog
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
 
 # Fortran module files
 *.mod
@@ -302,7 +302,7 @@ output.binlog
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
